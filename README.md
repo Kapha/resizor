@@ -13,3 +13,5 @@ Call any object and it's container provide height or width and a percentage.
 
 This can also be chained to other commands as it returns the original object back after it's done.    
 $('#object').resizor($('#container'), "height", .5).css('font-family', '"Cool Font"');
+
+For best results set a font-size you know will work in CSS as a fall back. This will be overriden but does help for people who have JavaScript Disabled.
