@@ -3,11 +3,11 @@ This jQuery code was designed to auto resize text to fit within another containe
 
 Usage:
 Add both a version of jQuery plus the js file to your document
-    <script src="//code.jquery.com/jquery-X.X.X.min.js"></script> 
-    <script src="/path/to/file/resizor.min.js"></script>
+    &lt;script src="//code.jquery.com/jquery-X.X.X.min.js"&gt;&lt;/script&gt; 
+    &lt;script src="/path/to/file/resizor.min.js">&lt;/script>
 
 Call any object and it's container provide height or width and a percentage.
-<script type="text/javascript">
+
   $('#object').resizor($('#container'), "height", .5);
 </script>
 
